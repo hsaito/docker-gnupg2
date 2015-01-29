@@ -8,3 +8,4 @@ RUN cd /tmp/gnupg-buildkit && ./updatesig.sh
 RUN cd /tmp/gnupg-buildkit && ./get.sh
 RUN cd /tmp/gnupg-buildkit && ./build_nox.sh
 RUN rm -rf /tmp/gnupg-buildkit
+RUN ldconfig
