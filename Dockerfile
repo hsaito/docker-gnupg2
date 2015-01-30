@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:utopic
 MAINTAINER Hideki Saito <hideki@hidekisaito.com>
 RUN apt-get update
 RUN apt-get -y upgrade
